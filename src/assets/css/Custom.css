@@ -1,0 +1,152 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #34495E;
+}
+
+.bg-dark-grey {
+    background-color: #34495E !important;
+}
+
+body {
+    background: #f8f9fa !important;
+}
+
+a {
+    color: #2c3e50 !important;
+    text-decoration: none !important;
+}
+
+.custom-select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 40px;
+    outline: none;
+}
+
+.custom-select option {
+    color: #34495E;
+}
+.custom-select:invalid { color:red; }
+
+.text-brown{
+    color:#66332B;
+}
+.text-green{
+    color:#17A85F;
+}
+.md-grey{
+    color:#34495E;
+}
+.configure-container{
+    margin: 0 auto;
+    width: 675px;
+}
+.configure-container .row{
+    width:750px;
+    margin:0 auto;
+}
+.btn-brown{
+    background-color:#66332B;
+    color:#ffff;
+    border-color:#66332B;
+}
+.btn-brown:hover, .btn-brown:focus, .btn-brown:active{
+    background:#80544e !important;
+    transition: 0.5s;
+    color:#ffff;
+    border-color:#66332B !important;
+    box-shadow: none !important;
+}
+.configure-main-container .card-footer{
+    background:#ffff;
+}
+.configure-main-container .card{
+    height:518px;
+}
+
+.btn-outline-brown{
+    background: #ffff;
+    border:1px solid #80544e;
+    color:#66332B !important;
+}
+
+.btn-outline-brown:hover, .btn-outline-brown:focus, .btn-outline-brown:active{
+    background:#ffff !important;
+    transition: 0.5s;
+    color:#66332B !important;
+    border-color:#66332B !important;
+    box-shadow: none !important;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.card-width{
+    width:1000px;
+    margin:0 auto;
+}
+
+.c-pointer{
+    cursor:pointer;
+}
+.display-border{
+    border:1px solid #dee2e6;
+}
+.width-75{
+    width:75% !important
+}
+.display-flex{
+    display: flex;
+}
+.width-100{
+    width:100% !important;
+}
+
+@media(max-width:1920px){
+    
+}
+@media(max-width:1024px){
+    .card-width {
+        width: auto;
+    }
+}
+@media(max-width:991px){
+    .display-border{
+        border:none;
+    }
+    .card-width {
+        width: auto;
+    }
+    .width-75{
+        width:100% !important;
+    }
+    .configure-container .row {
+        width:100%;
+    }
+}
+@media(max-width:767px){
+    .display-border{
+        border:none;
+    }
+    .card-width {
+        width: auto;
+    }
+    .configure-container {
+        width: auto;
+    }
+    .width-75{
+        width:100% !important;
+    }
+    .configure-container .row {
+        width:100%;
+    }
+    .fs-sm-11{
+        font-size: 10px;
+    }
+    .display-flex{
+        display:block;
+    }
+}
